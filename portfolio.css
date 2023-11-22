@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0%;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    color: #ffffff;
+    background:#0d4d57;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #C4E0E5, #125761);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #C4E0E5, #125761); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  
+  /* headings and paragraphs */
+  
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #0c1115;
+    font-weight: normal;
+  }
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+  }
+  a {
+    color: #6958fa;
+  }
+  
+  p.para-0 {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 50px;
+    line-height: 1.5;
+  }
+  
+  /* .top-container starts */
+  .top-container {
+    margin: 0;
+    text-align: center;
+    padding-top: 100px;
+  }
+  h1 {
+    font-size: 5.625rem;
+    font-weight: bold;
+    margin: 50px auto 0 auto;
+    font-family: cursive;
+    color: #0c1115;
+  }
+  p.tag {
+    margin-top: 0px;
+    font-size: 2.5rem;
+    color: #1d2228;
+    font-weight: normal;
+  }
+  /* images used */
+  .aag {
+    position: absolute;
+    top: 70px;
+    right: 35%;
+    height: 110px;
+  }
+  /* top-container ends */
+  
+  /* middle container  starts*/
+  .middle-container {
+    color: #222629;
+  }
+  /* profile */
+  .profile {
+    text-align: center;
+  }
+  .img {
+    height: 250px;
+    margin-top: 200px;
+  }
+  .para-0 {
+    font-size: 1.25rem;
+  }
+  /* skill row */
+  .skill-row {
+    width: 70%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+  }
+  iframe.one {
+    float: left;
+    margin: auto 30px 30px auto;
+  }
+  iframe.two {
+    float:right;
+    margin-left: 30px;
+  }
+  iframe.three {
+    float: left;
+    margin: auto 30px 30px auto;
+
+  }
+  /* middle-container ends */
+  
+  /* bottom-container  starts*/
+  .bottom-container {
+    background-color: #130f40;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+    padding: 4rem;
+    height: 200px;
+  }
+  .footer-link {
+    color: white;
+    margin: 50px 80px 50px;
+    text-decoration: none;
+    font-family: Merriweather;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .footer-link:hover {
+    color: #6958fa;
+    transition: 0.6s;
+  }
+  .end {
+    position: relative;
+    top: 80px;
+    color: #eaf6f6;
+  }
+  
+  /* media queries */
+  @media (max-width: 900px) {
+    /* top-container */
+    h1 {
+      font-size: 3.626rem;
+    }
+    p.tag {
+      font-size: 2rem;
+    }
+    .female {
+      width: 100%;
+    }
+    .aag{
+      position: relative;
+      left: 5rem;
+      padding: 0;
+    }
+    .img {
+      margin-top: 90px;
+    }
+  
+    /* skills */
+  
+    .one,
+    .two {
+      margin-top: 0;
+      padding-top: 0;
+      width: 100%;
+    }
+    /* bottom-container */
+    .bottom-container {
+      padding-top: 4rem;
+    }
+    .footer-link {
+      padding: 1rem;
+      margin: 1rem;
+    }
+}
